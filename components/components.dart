@@ -233,7 +233,6 @@ class GameOfLife extends DivElementImpl implements WebComponent {
   // TODO(samhop): implement wraparound on the board.
   ShadowRoot _root;
   GameOfLifeEvents on;
-  Timer timer;
   int lastRefresh;
   bool _stop;
   StyleElement computedStyles;
